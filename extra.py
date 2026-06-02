@@ -101,3 +101,44 @@
 
 
 # print(sum)
+
+# def eligibletovote():
+#  age=int(input('enter your age'))
+#  if(age>=18):
+#     print('yes you can vote')
+#  else:
+#     print('no you cannot vote')
+# eligibletovote()
+
+#square_pattern
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+
+def square_pattern():
+  i=1
+  while(i<=5):
+    j=1
+    while(j<=5):
+      print('*',end='')
+      j=j+1
+    print()
+    i=i+1
+square_pattern()
+
+# make sum fn,subt fn,multi fun,div fn,
+
+def calculator(a,b):
+    return a+b
+sum(9,8)
+
+    
+
+    
+
+
+
+
+
